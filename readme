@@ -1,0 +1,39 @@
+Who did this project?      =>      Erdoğan Bulut/B221202021 - Yüksel Mert Kırdar/B221202077
+
+Why we choose this concept?      =>      This concept is suitable for the limitations also it can be used from anyone.
+
+How was the development process?
+
+We decided on the theme of the page.
+Then we designed some page ideas in paint.
+After that, we chose one of them and tried to do that in HTML.
+We designed the page logo and divided the page into pieces.
+In the logo design process, we designed different logos for each page because we wanted the logos to be suitable for the page content.
+If the page is about movies, then the logo includes movie characters. If it is anime, then the logo includes anime characters, etc.
+Then we designed the middle of the page and created an image gallery.
+At the beginning, we start with 10 images and set their positions.
+Then we convert the images to buttons and add them to a shadow effect.
+And this shadow effect is also our hover effect, but in hover, the color is different.
+When we completed the image gallery, we decided to design navbar and add some buttons.
+Those buttons can switch pages or show pop-ups about registration.
+After setting the buttons, we designed those pop-up modals.
+For the registration page, we create a script to display a pop-up when clicked on.
+We used the same script for image buttons, and we added contents to these popups.
+When we learn we need to use bootstrap, we set everything from the beginning and add sidebars to the body.
+These sidebars include top lists and newly released video contents.
+When we finished one of the pages, we adapted this design to the other pages.
+For the main page, we wanted to do a different thing, so we decided to create a news page for the main page.
+After we complete the main page, we add a contact panel at the bottom of the pages.
+This contact panel includes copyright text and some social buttons.
+When everything was completed, we decided what colors we needed to use for backgrounds and font colors.
+We decided on a dark theme background and popups because, generally, a person who watches a movie, film, or anime wants to be in a dark place because that person wants to focus on what he or she is watching.
+
+What are the duties of group members?
+=> Erdoğan created homepage , animes page and login/sign up panel , wrote HTML , CSS , BOOTSTRAP and JAVASCRIPT codes and logos of website.​
+=> Yüksel created movies and series pages and wrote HTML , CSS codes and presentation.
+
+What is the subject of the site?      =>      The subject is informations about video contents.      =>      Our purpose is who is visiting our website he/she get knowledge about what he/she wants to watch.
+
+What is deficiencies of our website?
+This site can't store sign up inputs so there is no saved data for login part. They are just design blocks.
+When the trailer opens, the trailer continues even if the pop-up is closed until it is manually stopped.

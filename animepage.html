@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="animepage.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Animes - TV ANVIES</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar">
+                    <div class="col-sm-4">
+                        <img src="animelogo.jpg" class="logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li><a href="mainpage.html">Homepage</a></li>
+                            <li><a href="moviespage.html">Movies</a></li>
+                            <li><a href="seriespage.html">Series</a></li>
+                            <li><a href="animepage.html">Animes</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><button id="open-login">Login</button></li>
+                            <li><button id="open-signup">Sign Up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="left-sidebar">
+                        <div class="sidebar">
+                            <h4>Top Upcoming Animes</h4>
+                            <ul>
+                                <li><strong>Kimetsu no Yaiba: Hashira Geiko-hen</strong><br>(Action/Fantasy)</li>
+                                <li><strong>One Punch Man 3</strong><br>(Action/Comedy)</li>
+                                <li><strong>"Oshi no Ko" Season 2</strong><br>(Drama/Supernatural)</li>
+                                <li><strong>Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season</strong><br>(Drama/Fantasy/Suspense)</li>
+                                <li><strong>Youjo Senki II</strong><br>(Action/Fantasy)</li>
+                                <li><strong>Sono Bisque Doll wa Koi wo Suru (Zoku-hen)</strong><br>(Romance)</li>
+                                <li><strong>Uzumaki</strong><br>(Drama/Horror/Supernatural/Suspense)</li>
+                                <li><strong>Jigokuraku 2nd Season</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Enen no Shouboutai: San no Shou</strong><br>(Action/Fantasy/Sci-Fi)</li>
+                                <li><strong>Blue Lock 2nd Season</strong><br>(Sports)</li>
+                                <li><strong>Seirei Gensouki 2nd Season</strong><br>(Action/Adventure/Fantasy/Romance)</li>
+                                <li><strong>Fairy Tail: 100 Years Quest</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Kami no Tou 2nd Season</strong><br>(Action/Adventure/Drama/Fantasy/Mystery)</li>
+                                <li><strong>Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san</strong><br>(Comedy/Romance)</li>
+                                <li><strong>Arifureta Shokugyou de Sekai Saikyou Season 3</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Jujutsu Kaisen: Shimetsu Kaiyuu</strong><br>(Action/Fantasy)</li>
+                                <li><strong>Ore dake Level Up na Ken Season 2: Arise from the Shadow</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Fumetsu no Anata e Season 3</strong><br>(Adventure/Drama/Supernatural)</li>
+                                <li><strong>Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni</strong><br>(Comedy/Fantasy)</li>,
+                                <li><strong>Dr. Stone: Science Future</strong><br>(Adventure/Comedy/Sci-Fi)</li>
+                                <li><strong>Tensei shitara Ken deshita 2</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Bleach: Sennen Kessen-hen - Soukoku-tan</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru 2nd Season</strong><br>(Action/Drama/Fantasy/Mystery/Romance)</li>
+                                <li><strong>Kusuriya no Hitorigoto 2nd Season</strong><br>(Drama/Mystery)</li>
+                                <li><strong>Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II</strong><br>(Action/Fantasy/Romance)</li>
+                                <li><strong>Dandadan</strong><br>(Action/Comedy/Supernatural)</li>
+                                <li><strong>Isekai Suicide Squad</strong><br>(Action)</li>
+                                <li><strong>Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season</strong><br>(Romance)</li>                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h4>ANIMES</h4>
+                    <div class="anime-gallery">
+                        <div class="anime-image">
+                            <button id="bleach-open">
+                            <img src="bleach.jpg">
+                            <div class="shadow-overlay"><p>Bleach: Sennen Kessen-Hen</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="bluelock-open">
+                            <img src="bluelock.jpg">
+                            <div class="shadow-overlay"><p>Blue Lock</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="deathnote-open">
+                            <img src="deathnote.jpg">
+                            <div class="shadow-overlay"><p>Death Note</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="drstone-open">
+                            <img src="drstone.jpg">
+                            <div class="shadow-overlay"><p>Dr. Stone</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="haikyuu-open">
+                            <img src="haikyuu.jpg">
+                            <div class="shadow-overlay"><p>Haikyuu!!</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="horimiya-open">
+                            <img src="horimiya.jpg">
+                            <div class="shadow-overlay"><p>Horimiya</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="hxh-open">
+                            <img src="hxh.jpg">
+                            <div class="shadow-overlay"><p>Hunter x Hunter</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="jojo-open">
+                            <img src="jojo.jpg">
+                            <div class="shadow-overlay"><p>JoJo's Bizarre Adventure</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="jujutsu-open">
+                            <img src="jujutsu.jpg">
+                            <div class="shadow-overlay"><p>Jujutsu Kaisen</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="kaiju-open">
+                            <img src="kaiju.jpg">
+                            <div class="shadow-overlay"><p>Kaiju No. 8</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="kurokonobasket-open">
+                            <img src="kurokonobasket.jpg">
+                            <div class="shadow-overlay"><p>Kuroko's Basketball</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="mashle-open">
+                            <img src="mashle.jpg">
+                            <div class="shadow-overlay"><p>Mashle</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="naruto-open">
+                            <img src="naruto.jpg">
+                            <div class="shadow-overlay"><p>Naruto: Shipudden</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="ninjakamui-open">
+                            <img src="ninjakamui.jpg">
+                            <div class="shadow-overlay"><p>Ninja Kamui</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="onepiece-open">
+                            <img src="onepiece.jpg">
+                            <div class="shadow-overlay"><p>One Piece</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="onepunchman-open">
+                            <img src="onepunchman.jpg">
+                            <div class="shadow-overlay"><p>One Punch Man</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="oshinoko-open">
+                            <img src="oshinoko.jpg">
+                            <div class="shadow-overlay"><p>Oshi no Ko</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="overlord-open">
+                            <img src="overlord.jpg">
+                            <div class="shadow-overlay"><p>Overlord</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="sololeveling-open">
+                            <img src="sololeveling.jpg">
+                            <div class="shadow-overlay"><p>Solo Leveling</p></div>
+                            </button>
+                        </div>
+                        <div class="anime-image">
+                            <button id="vinlandsaga-open">
+                            <img src="vinlandsaga.jpg">
+                            <div class="shadow-overlay"><p>Vinland Saga</p></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="right-sidebar">
+                        <div class="sidebar">
+                            <h4>Top 32 Animes for MyAL</h4>
+                            <ol>
+                                <li><strong>Sousou no Frieren</strong><br>(Adventure/Drama/Fantasy)</li>
+                                <li><strong>Fullmetal Alchemist: Brotherhood</strong><br>(Action/Adventure/Drama/Fantasy)</li>
+                                <li><strong>Steins;Gate</strong><br>(Drama/Sci-Fi/Suspense)</li>
+                                <li><strong>Gintama</strong><br>(Action/Comedy/Sci-Fi)</li>
+                                <li><strong>Attack on Titan Season 3 Part 2</strong><br>(Action/Drama/Suspense)</li>
+                                <li><strong>Hunter x Hunter(2011)</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Bleach: Sennen Kessen-Hen</strong><br>(Action/Adventure/Fantasy)</li>
+                                <li><strong>Ginga Eiyuu Densetsu</strong><br>(Drama/Sci-Fi)</li>
+                                <li><strong>Kaguya-sama wa Kokurasetai: Ultra Romantic</strong><br>(Comedy/Romance)</li>
+                                <li><strong>Fruits Basket: The Final</strong><br>(Drama/Romance/Supernatural)</li>
+                                <li><strong>Clannad: After Story</strong><br>(Drama/Romance/Supernatural)</li>
+                                <li><strong>Kusuriya no Hitorigoto</strong><br>(Drama/Mystery)</li>
+                                <li><strong>3-gatsu no Lion 2nd Season</strong><br>(Drama)</li>
+                                <li><strong>Code Geass: Hangyaku no Lelouch R2</strong><br>(Action/Award Winning/Drama/Sci-Fi)</li>
+                                <li><strong>Monster</strong><br>(Drama/Mystery/Suspense)</li>
+                                <li><strong>Boku no Kokoro no Yabai Yatsu 2nd Season</strong><br>(Comedy/Romance)</li>
+                                <li><strong>Owarimonogatari 2nd Seaspn</strong><br>(Comedy/Mystery/Supernatural)</li>
+                                <li><strong>Jujutsu Kaisen 2nd Season</strong><br>(Action/Fantasy)</li>
+                                <li><strong>Kingdom 3rd Season</strong><br>(Action)</li>
+                                <li><strong>Vinland Saga Season 2</strong><br>(Action/Adventure/Drama)</li>
+                                <li><strong>Attack on Titan Final Season</strong><br>(Action/Drama/Suspense)</li>
+                                <li><strong>Mob Psycho 100 II</strong><br>(Action/Comedy/Supernatural)</li>
+                                <li><strong>Bocchi the Rock!</strong><br>(Comedy)</li>
+                                <li><strong>Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</strong><br>(Sports)</li>
+                                <li><strong>Hajime no Ippo</strong><br>(Sports)</li>
+                                <li><strong>Attack on Titan Final Season Part 2</strong><br>(Action/Drama/Suspense)</li>
+                                <li><strong>Monogatari Series: Second Season</strong><br>(Comedy/Mystery/Romance/Supernatural)</li>
+                                <li><strong>Demon Slayer: Yuukaku-hen</strong><br>(Action/Fantasy)</li>
+                                <li><strong>Kingdom 5th Season</strong><br>(Action)</li>
+                                <li><strong>Ashita no Joe 2</strong><br>(Drama/Sports)</li>
+                                <li><strong>Cowboy Bebop</strong><br>(Action/Award Winning/Sci-Fi)</li>
+                                <li><strong>Vinland Saga</strong><br>(Action/Adventure/Drama)</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-panel">
+                    <section id="contact">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>TV Anvies © Tv-Anvies 2024</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="icons">
+                                    <a href="mainpage.html">
+                                        <i class="fa-solid fa-house fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com">
+                                        <i class="fa-brands fa-youtube fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com">
+                                        <i class="fa-brands fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com">
+                                        <i class="fa-brands fa-instagram fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com">
+                                        <i class="fa-brands fa-tiktok fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.gmail.com">
+                                        <i class="fa-solid fa-envelope fa-3x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="bleach-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h4>Bleach: Sennen Kessen-Hen</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 9.02</h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 id="bleach-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/78WIYzX_m98" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Substitute Soul Reaper Ichigo Kurosaki spends his days fighting against Hollows, dangerous evil spirits that threaten Karakura Town. Ichigo carries out his quest with his closest allies: Orihime Inoue, his childhood friend with a talent for healing; Yasutora Sado, his high school classmate with superhuman strength; and Uryuu Ishida, Ichigo's Quincy rival.</p>
+                            <p>Ichigo's vigilante routine is disrupted by the sudden appearance of Asguiaro Ebern, a dangerous Arrancar who heralds the return of Yhwach, an ancient Quincy king. Yhwach seeks to reignite the historic blood feud between Soul Reaper and Quincy, and he sets his sights on erasing both the human world and the Soul Society for good.</p>
+                            <p>Yhwach launches a two-pronged invasion into both the Soul Society and Hueco Mundo, the home of Hollows and Arrancar. In retaliation, Ichigo and his friends must fight alongside old allies and enemies alike to end Yhwach's campaign of carnage before the world itself comes to an end.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genres: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 26</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 5 October 2004 </li>
+                                <li>Myanimelist Ranked: #9</li>
+                                <li>Myanimelist Popularity: #410</li>
+                                <li>Rating: R-17+ (Violence & Profanity)</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bluelock-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Blue Lock</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.27</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="bluelock-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/IVsII3dLbWc" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Yoichi Isagi was mere moments away from scoring a goal that would have sent his high school soccer team to the nationals, but a split-second decision to pass the ball to his teammate cost him that reality. Bitter, confused, and disappointed, Isagi wonders if the outcome would have been different had he not made the pass. When the young striker returns home, an invitation from the Japan Football Union awaits him. Through an arbitrary and biased decision-making process, Isagi is one of three hundred U-18 strikers selected for a controversial project named Blue Lock.</p>
+                            <p>The project's ultimate goal is to turn one of the selected players into the star striker for the Japanese national team. To find the best participant, each diamond in the rough must compete against others through a series of solo and team competitions to rise to the top. Putting aside his ethical objections to the project, Isagi feels compelled to fight his way to the top, even if it means ruthlessly crushing the dreams of 299 aspiring young strikers.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Sports</li>
+                                <li>Episode Number: 24</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 9 October 2022</li>
+                                <li>Myanimelist Ranked: #292</li>
+                                <li>Myanimelist Popularity: #302</li>
+                                <li>Rating: P-13 - Teen 13 or older</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="deathnote-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Death Note</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.62</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="deathnote-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/oc0i0F_Q0go" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging gambling den. The ingenious 17-year-old Japanese student Light Yagami and sadistic god of death Ryuk share one belief: their worlds are rotten.</p>
+                            <p>For his own amusement, Ryuk drops his Death Note into the human world. Light stumbles upon it, deeming the first of its rules ridiculous: the human whose name is written in this note shall die. However, the temptation is too great, and Light experiments by writing a felon's name, which disturbingly enacts his first murder.</p>
+                            <p>Aware of the terrifying godlike power that has fallen into his hands, Light—under the alias Kira—follows his wicked sense of justice with the ultimate goal of cleansing the world of all evil-doers. The meticulous mastermind detective L is already on his trail, but as Light's brilliance rivals L's, the grand chase for Kira turns into an intense battle of wits that can only end when one of them is dead.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Supernatural, Suspense</li>
+                                <li>Episode Number: 37</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 4 October 2006 </li>
+                                <li>Myanimelist Ranked: #81</li>
+                                <li>Myanimelist Popularity: #2</li>
+                                <li>Rating: R-17+ (Violence & Profanity)</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="drstone-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Dr. Stone</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.27</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="drstone-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/7YZzYeBartM" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>After five years of harboring unspoken feelings, high-schooler Taiju Ooki is finally ready to confess his love to Yuzuriha Ogawa. Just when Taiju begins his confession however, a blinding green light strikes the Earth and petrifies mankind around the world—turning every single human into stone.</p>
+                            <p>Several millennia later, Taiju awakens to find the modern world completely nonexistent, as nature has flourished in the years humanity stood still. Among a stone world of statues, Taiju encounters one other living human: his science-loving friend Senkuu, who has been active for a few months. Taiju learns that Senkuu has developed a grand scheme—to launch the complete revival of civilization with science. Taiju's brawn and Senkuu's brains combine to forge a formidable partnership, and they soon uncover a method to revive those petrified.</p>
+                            <p>However, Senkuu's master plan is threatened when his ideologies are challenged by those who awaken. All the while, the reason for mankind's petrification remains unknown</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Adventure, Comedy, Sci-Fi</li>
+                                <li>Episode Number: 58</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 5 July 2019 </li>
+                                <li>Myanimelist Ranked: #294</li>
+                                <li>Myanimelist Popularity: #52</li>
+                                <li>Rating: P-13 - Teen 13 or older</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="haikyuu-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Haikyuu!!</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.44</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="haikyuu-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/JOGp2c7-cKc" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Ever since having witnessed the "Little Giant" and his astonishing skills on the volleyball court, Shouyou Hinata has been bewitched by the dynamic nature of the sport. Even though his attempt to make his debut as a volleyball regular during a middle school tournament went up in flames, he longs to prove that his less-than-impressive height ceases to be a hindrance in the face of his sheer will and perseverance.</p>
+                            <p>When Hinata enrolls in Karasuno High School, the Little Giant's alma mater, he believes that he is one step closer to his goal of becoming a professional volleyball player. Although the school only retains a shadow of its former glory, Hinata's conviction isn't shaken until he learns that Tobio Kageyama—the prodigy who humiliated Hinata's middle school volleyball team in a crushing defeat—is now his teammate.</p>
+                            <p>To fulfill his desire of leaving a mark on the realm of volleyball—so often regarded as the domain of the tall and the strong—Hinata must smooth out his differences with Kageyama. Only when Hinata learns what it takes to be a part of a team will he be able to join the race to the top in earnest.</p>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li>Genre: Sports</li>
+                                    <li>Episode Number: 85</li>
+                                    <li>Episode Time: 24 min. per ep.</li>
+                                    <li>First Episode Release Date: 6 April 2014 </li>
+                                    <li>Myanimelist Ranked: #159</li>
+                                    <li>Myanimelist Popularity: #37</li>
+                                    <li>Rating: P-13 - Teen 13 or older</li>
+                                </ul>
+                            </div>
+                            <diV class="col-sm-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="horimiya-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Horimiya</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.20</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="horimiya-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/b7ZYm_LEJ6Y" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>On the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people's minds. After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates. However, a fateful meeting between the two lays both of their hidden selves bare. Even though she is popular at school, Hori has little time to socialize with her friends due to housework. On the other hand, Miyamura lives under the noses of his peers, his body bearing secret tattoos and piercings that make him look like a gentle delinquent.</p>
+                            <p>Having opposite personalities yet sharing odd similarities, the two quickly become friends and often spend time together in Hori's home. As they both emerge from their shells, they share with each other a side of themselves concealed from the outside world.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Romance</li>
+                                <li>Episode Number: 26 </li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 10 January 2021</li>
+                                <li>Myanimelist Ranked: #374</li>
+                                <li>Myanimelist Popularity: #93</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hxh-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Hunter x Hunter</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 9.04</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="hxh-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/d6kBeJjTGnY" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Hunters devote themselves to accomplishing hazardous tasks, all from traversing the world's uncharted territories to locating rare items and monsters. Before becoming a Hunter, one must pass the Hunter Examination—a high-risk selection process in which most applicants end up handicapped or worse, deceased.</p>
+                            <p>Ambitious participants who challenge the notorious exam carry their own reason. What drives 12-year-old Gon Freecss is finding Ging, his father and a Hunter himself. Believing that he will meet his father by becoming a Hunter, Gon takes the first step to walk the same path.</p>
+                            <p>During the Hunter Examination, Gon befriends the medical student Leorio Paladiknight, the vindictive Kurapika, and ex-assassin Killua Zoldyck. While their motives vastly differ from each other, they band together for a common goal and begin to venture into a perilous world.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 148</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 2 October 2011</li>
+                                <li>Myanimelist Ranked: #7</li>
+                                <li>Myanimelist Popularity: #9</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jojo-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h4>JoJo's Bizarre Adventure</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 7.88</h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 id="jojo-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/t8WxJVBhiTY" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>The year is 1868; English nobleman George Joestar and his son Jonathan become indebted to Dario Brando after being rescued from a carriage incident. What the Joestars don't realize, however, is that Dario had no intention of helping them; he believed they were dead and was trying to ransack their belongings. After Dario's death 12 years later, George—hoping to repay his debt—adopts his son, Dio.</p>
+                            <p>While he publicly fawns over his new father, Dio secretly plans to steal the Joestar fortune. His first step is to create a divide between George and Jonathan. By constantly outdoing his foster brother, Dio firmly makes his place in the Joestar family. But when Dio pushes Jonathan too far, Jonathan defeats him in a brawl.</p>
+                            <p>Years later, the two appear to be close friends to the outside world. But trouble brews again when George falls ill, as Jonathan suspects that Dio is somehow behind the incident—and it appears he has more tricks up his sleeve.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genre: Action, Adventure, Supernatural</li>
+                                <li>Episode Number: 190</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 6 October 2012</li>
+                                <li>Myanimelist Ranked: #852</li>
+                                <li>Myanimelist Popularity: #59</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jujutsu-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Jujutsu Kaisen</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.60</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="jujutsu-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/pkKu9hLT-t8" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the King of Curses.</p>
+                            <p>Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Prefectural Jujutsu High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genres: Action, Award Winning, Fantasy</li>
+                                <li>Episode Number: 47</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 3 October 2020</li>
+                                <li>Myanimelist Ranked: #88</li>
+                                <li>Myanimelist Popularity: #14</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                        <diV class="col-sm-6"></diV>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kaiju-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Kaiju No. 8</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.26</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="kaiju-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/JwF7bhvnCxI" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>After the destruction of their hometown, childhood friends Kafka Hibino and Mina Ashiro make a pact to become officers in the Defense Force—a militarized organization tasked with protecting Japan from colossal monsters known as "kaijuu." Decades later, the 32-year-old Kafka has all but given up on his dreams of heroism. Instead, he cleans up the remains of the slaughtered kaijuu after they are defeated by valiant soldiers—including Mina, who has successfully achieved their shared goal.</p>
+                            <p>Upon meeting his new coworker, Reno Ichikawa, Kafka faces a mirror of his past self: an ambitious young man whose one desire is to fight as a member of the Defense Force. Unfortunately, the two are soon involved in a freak encounter with a rogue kaijuu. Though Kafka demonstrates his innate heroic nature and rescues Reno from certain doom, he is left gravely injured.</p>
+                            <p>While both men recover in a hospital, Kafka is seemingly attacked by another one of the beasts. As a result, he gains the ability to transform into a humanoid kaijuu with the strength and powers of the massive monsters menacing Japan. Dubbed "Kaijuu No. 8" by the military, Kafka resolves to use his newfound gifts for the greater good. Tied together by mutual respect, Kafka and Reno set out to join warriors like Mina at the forefront of the Defense Force.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li>Genres: Action, Sci-Fi</li>
+                                <li>Episode Number: 12</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 13 April 2024 </li>
+                                <li>Myanimelist Ranked: #309</li>
+                                <li>Myanimelist Popularity: #1091</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kurokonobasket-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Kuroko's Basketball</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.06</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="kurokonobasket-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/1KLvA6FMNiE" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>For the last three years, Teikou Middle School has dominated the national basketball scene with its legendary lineup: the "Generation of Miracles." It consisted of five prodigies who excelled at the sport, but a "Phantom Sixth Man" lurked in the shadows and helped earn the team their revered status. Eventually, their monstrous growth jaded them from the sport they loved and made them go their separate ways in high school.</p>
+                            <p>In search of new members, the Seirin High School basketball team recruits Taiga Kagami and Tetsuya Kuroko, two freshmen who seem to have significant differences in abilities. Having returned recently from America, Kagami has both a natural aptitude and relentless love for the sport. Meanwhile, Kuroko lacks presence and exhibits no outstanding athletic talent. However, it is later revealed that he is Teikou's Phantom Sixth Man—the player once part of the Generation of Miracles.</p>
+                            <p>Kuroko wants to prove to the Seirin team that he is strong in his own way. Seeing his conviction, Kagami forms a dynamic partnership with Kuroko, the latter promising to support Kagami's "light" as his "shadow." Alongside their new Seirin teammates, they aim to conquer the upcoming Interhigh championship, but the reappearance of Kuroko's former teammates complicates their plan.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genre: Sports</li>
+                                <li>Episode Number: 75</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 8 April 2012 </li>
+                                <li>Myanimelist Ranked: #557</li>
+                                <li>Myanimelist Popularity: #116</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mashle-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Mashle</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 7.62</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="mashle-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/_ce5_P1Hj5A" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In this magical world, one is easily identified as having magical abilities by a distinctive mark on their face. Those unable to practice magic are swiftly exterminated to maintain the magical integrity of society. However, deep within a forest lies an anomaly in Mash Burnedead, who can be found pumping iron with one arm and lifting a cream puff with the other. This aloof boy with superhuman strength—but no magical abilities—leads a quiet life with his father, far removed from society.</p>
+                            <p>Mash's peace is soon disturbed when the authorities discover his lack of magical powers. They issue him an ultimatum: compete to become a "Divine Visionary," which would force everyone to accept him, or be persecuted forever. To protect his family, he enrolls in the prestigious Easton Magic Academy, which only the most elite and gifted students are allowed to attend. Now, Mash must overcome his shortcomings as a magicless being and surpass the other students—relying solely on his muscles.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Comedy, Fantasy</li>
+                                <li>Episode Number: 24</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 8 April 2023</li>
+                                <li>Myanimelist Ranked: #1466</li>
+                                <li>Myanimelist Popularity: #403</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="naruto-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Naruto: Shippuden</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.27</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="naruto-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/22R0j8UKRzY" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.</p>
+                            <p>Although Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 500</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 15 February 2007 </li>
+                                <li>Myanimelist Ranked: #291</li>
+                                <li>Myanimelist Popularity: #16</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ninjakamui-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Ninja Kamui</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 7.29</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="ninjakamui-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/phzYW8uo6JM" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Seemingly an average man, Joe Logan leads a peaceful life in the countryside with his wife and child. However, the Logan family have actually assumed false identities to escape from Joe's past as a fearsome ninja assassin. Despite a string of high-profile murders of his former peers, Joe is sure that his new life is secure—but his tranquil bliss is soon shattered when his family is slaughtered by members of his former clan.</p>
+                            <p>Left for dead, Joe wakes up in a hospital, unsure of how he survived the wounds that should have killed him. Police detectives Emma Samanda and Mike Moriss, assigned to investigate the Logan family's deaths, witness another attempt on Joe's life. However, this time Joe is prepared. Unleashing secret techniques, he easily dispatches his enemies, shedding his new identity in the process.</p>
+                            <p>Embracing his old ways, Joe shrouds himself in his former persona, cutting through the organization he once served in the name of cold-blooded revenge. Assisted in his hunt by the detective duo, Joe will stop at nothing to kill his past and the demons hailing from it.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Fantasy, Sci-Fi</li>
+                                <li>Episode Number: 23</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 11 February 2024 </li>
+                                <li>Myanimelist Ranked: #2889</li>
+                                <li>Myanimelist Popularity: #1672</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="onepiece-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>One Piece</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.72</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="onepiece-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/MCb13lbVGE0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.</p>
+                            <p>The late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.</p>
+                            <p>As he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 1102+</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 20 October 1999</li>
+                                <li>Myanimelist Ranked: #51</li>
+                                <li>Myanimelist Popularity: #19</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="onepunchman-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>One Punch Man</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.50</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="onepunchman-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/Poo5lqoWSGw" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.</p>
+                            <p>Japan keeps losing the World Cup, over and over. After Isagi Yoichi, a forward for a high school team, gets eliminated in the last game in the qualifier for nationals, gets invited to a program called "Blue Lock" Their coach will be Ego Jinpachi, who intends to "destroy Japanese loser football" by introducing a radical new training regimen: isolate 300 young forwards in a prison-like institution called "Blue Lock" and put them through rigorous training aimed at creating "the world's greatest egotist striker."</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Comedy</li>
+                                <li>Episode Number: 24</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 5 October 2015 </li>
+                                <li>Myanimelist Ranked: #132</li>
+                                <li>Myanimelist Popularity: #4</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oshinoko-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Oshi no Ko</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.66</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="oshinoko-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/zntY4A4GPU0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In the entertainment world, celebrities often show exaggerated versions of themselves to the public, concealing their true thoughts and struggles beneath elaborate lies. Fans buy into these fabrications, showering their idols with undying love and support, until something breaks the illusion. Sixteen-year-old rising star Ai Hoshino of pop idol group B Komachi has the world captivated; however, when she announces a hiatus due to health concerns, the news causes many to become worried.</p>
+                            <p>As a huge fan of Ai, gynecologist Gorou Amemiya cheers her on from his countryside medical practice, wishing he could meet her in person one day. His wish comes true when Ai shows up at his hospital—not sick, but pregnant with twins! While the doctor promises Ai to safely deliver her children, he wonders if this encounter with the idol will forever change the nature of his relationship with her.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Award Winning, Drama, Supernatural</li>
+                                <li>Episode Number: 11</li>
+                                <li>Episode Time: 30 min. per ep.</li>
+                                <li>First Episode Release Date: 12 April 2023 </li>
+                                <li>Myanimelist Ranked: #67</li>
+                                <li>Myanimelist Popularity: #242</li>
+                                <li>Rating: PG-13 - Teens 13 or older</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlord-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Overlord</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 7.91</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="overlord-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/uhlBqFj9kDw" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>The final hour of the popular virtual reality game Yggdrasil has come. However, Momonga, a powerful wizard and master of the dark guild Ainz Ooal Gown, decides to spend his last few moments in the game as the servers begin to shut down. To his surprise, despite the clock having struck midnight, Momonga is still fully conscious as his character and, moreover, the non-player characters appear to have developed personalities of their own!</p>
+                            <p>Confronted with this abnormal situation, Momonga commands his loyal servants to help him investigate and take control of this new world, with the hopes of figuring out what has caused this development and if there may be others in the same predicament.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 52</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 7 July 2015 </li>
+                                <li>Myanimelist Ranked: #776</li>
+                                <li>Myanimelist Popularity: #67</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sololeveling-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Solo Leveling</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.32</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="sololeveling-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/YvGSK8mIlt8" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Humanity was caught at a precipice a decade ago when the first gates—portals linked with other dimensions that harbor monsters immune to conventional weaponry—emerged around the world. Alongside the appearance of the gates, various humans were transformed into hunters and bestowed superhuman abilities. Responsible for entering the gates and clearing the dungeons within, many hunters chose to form guilds to secure their livelihoods.</p>
+                            <p>Sung Jin-Woo is an E-rank hunter dubbed as the weakest hunter of all mankind. While exploring a supposedly safe dungeon, he and his party encounter an unusual tunnel leading to a deeper area. Enticed by the prospect of treasure, the group presses forward, only to be confronted with horrors beyond their imagination. Miraculously, Jin-Woo survives the incident and soon finds that he now has access to an interface visible only to him. This mysterious system promises him the power he has long dreamed of—but everything comes at a price.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Adventure, Fantasy</li>
+                                <li>Episode Number: 12</li>
+                                <li>Episode Time: 23 min. per ep.</li>
+                                <li>First Episode Release Date: 7 January 2024 </li>
+                                <li>Myanimelist Ranked: #232</li>
+                                <li>Myanimelist Popularity: #301</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vinlandsaga-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h4>Vinland Saga</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Myanimelist Score: 8.75</h4>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4 id="vinlandsaga-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe src="https://www.youtube.com/embed/f8JrZ7Q_p-8" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, "You have no enemies, nobody does. There is nobody who it's okay to hurt," as he grew, Thorfinn knew that nothing was further from the truth.</p>
+                            <p>The war between England and the Danes grows worse with each passing year. Death has become commonplace, and the viking mercenaries are loving every moment of it. Allying with either side will cause a massive swing in the balance of power, and the vikings are happy to make names for themselves and take any spoils they earn along the way. Among the chaos, Thorfinn must take his revenge and kill Askeladd, the man who murdered his father. The only paradise for the vikings, it seems, is the era of war and death that rages on.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action, Adventure, Drama</li>
+                                <li>Episode Number: 48</li>
+                                <li>Episode Time: 24 min. per ep.</li>
+                                <li>First Episode Release Date: 5 October 2004 </li>
+                                <li>Myanimelist Ranked: #48</li>
+                                <li>Myanimelist Popularity: #74</li>
+                                <li>Rating: R - 17+ (violence & profanity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signup-modal">
+            <form>
+                <table id="signup-screen">
+                    <tr>
+                        <h4 id="close-modal">X</h4>
+                    </tr>
+                    <tr>
+                        <td><label>Full Name</label></td>
+                        <td><input type="text" placeholder="Enter your Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Nickname</label></td>
+                        <td><input type="text" placeholder="Enter your Nickname"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Which types do you like?</label></td>
+                        <td>
+                            <div class="checkbox">
+                                <input type="checkbox" id="videotype" value="Movies"><p>Movies</p>
+                                <input type="checkbox" id="videotype" value="Series"><p>Series</p>
+                                <input type="checkbox" id="videotype" value="Animes"><p>Animes</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password Again</label></td>
+                        <td><input type="password" placeholder="Enter your password again"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="register">Register</button></td>
+                    </tr>
+            </table>
+            </form>
+        </div>
+        <div class="login-modal">
+            <form>
+                <table>
+                    <tr>
+                        <h4 id="close-login">X</h4>
+                    </tr>
+                    <tr>
+                        <td><label>Nickname</label></td>
+                        <td><input type="text" placeholder="Enter your Nickname"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="login">Login</button></td>
+                    </tr>
+            </table>
+            </form>
+        </div>
+        <script src="login-script.js"></script>
+        <script src="signup-script.js"></script>
+        <script src="bleach-script.js"></script>
+        <script src="bluelock-script.js"></script>
+        <script src="deathnote-script.js"></script>
+        <script src="drstone-script.js"></script>
+        <script src="haikyuu-script.js"></script>
+        <script src="horimiya-script.js"></script>
+        <script src="hxh-script.js"></script>
+        <script src="jojo-script.js"></script>
+        <script src="jujutsu-script.js"></script>
+        <script src="kaiju-script.js"></script>
+        <script src="kurokonobasket-script.js"></script>
+        <script src="mashle-script.js"></script>
+        <script src="naruto-script.js"></script>
+        <script src="ninjakamui-script.js"></script>
+        <script src="onepiece-script.js"></script>
+        <script src="onepunchman-script.js"></script>
+        <script src="oshinoko-script.js"></script>
+        <script src="overlord-script.js"></script>
+        <script src="sololeveling-script.js"></script>
+        <script src="vinlandsaga-script.js"></script>
+        <script src="https://kit.fontawesome.com/2f863d5d6a.js" crossorigin="anonymous"></script>
+    </body>
+</html>

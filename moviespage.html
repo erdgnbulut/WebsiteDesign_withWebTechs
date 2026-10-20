@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="moviespage.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Movies - TV ANVIES</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar">
+                    <div class="col-sm-4">
+                        <img src="movielogo.jpg" class="logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li><a href="mainpage.html">Homepage</a></li>
+                            <li><a href="moviespage.html">Movies</a></li>
+                            <li><a href="seriespage.html">Series</a></li>
+                            <li><a href="animepage.html">Animes</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><button id="open-login">Login</button></li>
+                            <li><button id="open-signup">Sign Up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="left-sidebar">
+                        <div class="sidebar">
+                            <h4>Latest Movies</h4>
+                            <ul>
+                                <li><strong>Back To Black</strong><br>(Musical/Drama)</li>
+                                <li><strong>Challengers</strong><br>(Dram/Romantic)</li>
+                                <li><strong>The Fall Guy</strong><br>(Action/Comedy)</li>
+                                <li><strong>Immaculate</strong><br>(Thriller/Horror)</li>
+                                <li><strong>Civil War</strong><br>(Action/Drama)</li>
+                                <li><strong>10 Lives</strong><br>(Animation/Comedy)</li>
+                                <li><strong>Esperando a Dalí</strong><br>(Comedy/Romantic)</li>
+                                <li><strong>Abigail</strong><br>(Thriller/Horror)</li>
+                                <li><strong>Kung Fu Panda 4</strong><br>(Animation/Action)</li>
+                                <li><strong>Godzilla x Kong: The New Empire</strong><br>(Sci-Fi/Action)</li>
+                            </ul>
+                            <h4>Upcoming Movies</h4>
+                            <ul>
+                                <li><strong>Kingdom of the Planet of the Apes</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Super Agent Bernard: Mission to Mars</strong><br>(Animation)</li>
+                                <li><strong>Bloodline Killer</strong><br>(Horror/Thriller)</li>
+                                <li><strong>IF</strong><br>(Comedy/Fantasy)</li>
+                                <li><strong>Becky 2:The Wrath of Becky</strong><br>(Action/Thriller)</li>
+                                <li><strong>Furiosa: A Mad Max Saga</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>The Garfield Movie</strong><br>(Animation/Comedy)</li>
+                                <li><strong>Bad Boys: Ride or Die</strong><br>(Action/Thriller)</li>
+                                <li><strong>The Watchers</strong><br>(Thriller/Horror)</li>
+                                <li><strong>Inside Out 2</strong><br>(Animation/Adventure)</li>
+                                <li><strong>We Live in Time</strong><br>(Romance/Comedy)</li>
+                                <li><strong>Kraven The Hunter</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Alien: Romulus</strong><br>(Sci-Fi/Horror)</li>
+                                <li><strong>Wicked</strong><br>(Drama/Fantasy)</li>
+                                <li><strong>Deadpool & Wolverine</strong><br>(Action/Sci-Fi)</li>
+                                <li><strong>Despicabel 4</strong><br>(Animation/Adventure)</li>
+                                <li><strong>Borderlands</strong><br>(Action/Adventure)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h4>MOVIES</h4>
+                    <div class="movie-gallery">
+                        <div class="movie-image">
+                            <button id="Voli-open">
+                            <img src="Voli.jpg">
+                            <div class="shadow-overlay"><p>Wall-E</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Casablanca-open">
+                            <img src="Casablanca.jpg">
+                            <div class="shadow-overlay"><p>Casablanca</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="InfinityWar-open">
+                            <img src="InfinityWar.jpg">
+                            <div class="shadow-overlay"><p>Avengers:Infinity War</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="LionKing-open">
+                            <img src="LionKing.jpg">
+                            <div class="shadow-overlay"><p>The Lion King</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Gladiator-open">
+                            <img src="Gladiator.jpg">
+                            <div class="shadow-overlay"><p>Gladiator</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="SpiderVerse-open">
+                            <img src="SpiderVerse.jpg">
+                            <div class="shadow-overlay"><p>Spider-Man:Into The Spider Verse</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Paraside-open">
+                            <img src="Parasite.jpg">
+                            <div class="shadow-overlay"><p>Parasite</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Pianist-open">
+                            <img src="Pianist.jpg">
+                            <div class="shadow-overlay"><p>Pianist</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="DarkKnight-open">
+                            <img src="DarkKnight.jpg">
+                            <div class="shadow-overlay"><p>The Dark Knight Rises</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Oppenheimer-open">
+                            <img src="Oppenheimer.jpg">
+                            <div class="shadow-overlay"><p>Oppenheimer</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Eternal-open">
+                            <img src="Eternal.jpg">
+                            <div class="shadow-overlay"><p>Eternal Sunshine of the Spotless Mind</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="ToyStory-open">
+                            <img src="ToyStory.jpg">
+                            <div class="shadow-overlay"><p>Toy Story 3</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Dune-open">
+                            <img src="Dune.jpg">
+                            <div class="shadow-overlay"><p>Dune:Part Two</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Downfall-open">
+                            <img src="Downfall.jpg">
+                            <div class="shadow-overlay"><p>Downfall</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Barbie-open">
+                            <img src="Barbie.jpg">
+                            <div class="shadow-overlay"><p>Barbie</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Joker-open">
+                            <img src="Joker.jpg">
+                            <div class="shadow-overlay"><p>Joker</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Vfor-open">
+                            <img src="Vfor.jpg">
+                            <div class="shadow-overlay"><p>V for Vandetta</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Monsters-open">
+                            <img src="Monsters.jpg">
+                            <div class="shadow-overlay"><p>Monsters,Inc</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Logan-open">
+                            <img src="Logan.jpg">
+                            <div class="shadow-overlay"><p>Logan</p></div>
+                            </button>
+                        </div>
+                        <div class="movie-image">
+                            <button id="Deadpool-open">
+                            <img src="Deadpool.jpg">
+                            <div class="shadow-overlay"><p>Deadpool</p></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="right-sidebar">
+                        <div class="sidebar">
+                            <h4>Top 30 IMDb (01/05/24)</h4>
+                            <ol>
+                                <li><strong>The Shawshank Redemption</strong><br>(Drama)</li>
+                                <li><strong>The Godfather</strong><br>(Crime/Drama)</li>
+                                <li><strong>The Dark Knight</strong><br>(Action/Drama)</li>
+                                <li><strong>The Godfather Part II</strong><br>(Crime/Drama)</li>
+                                <li><strong>12 Angry Men</strong><br>(Crime/Drama)</li>
+                                <li><strong>Schindler's List</strong><br>(Biography/Drama)</li>
+                                <li><strong>The Lord of the Rings: The Return of the King</strong><br>(Fantasy/Adventure)</li>
+                                <li><strong>Pulp Fiction</strong><br>(Crime/Drama)</li>
+                                <li><strong>The Lord of the Rings: The Fellowship of the Ring</strong><br>(Fantasy/Adventure)</li>
+                                <li><strong>The Good,The Bad,and the Ugly</strong><br>(Adventure/Western)</li>
+                                <li><strong>Forrest Gump</strong><br>(Drama/Romance)</li>
+                                <li><strong>Original title: The Lord of the Rings: The Two Towers</strong><br>(Fantasy/Adventure)</li>
+                                <li><strong>Fight Club</strong><br>(Drama)</li>
+                                <li><strong>Inception</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Star Wars: Episode V-The Empire Strikes Back</strong><br>(Fantasy/Action)</li>
+                                <li><strong>The Matrix</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Goodfellas</strong><br>(Biography/Drama)</li>
+                                <li><strong>One Flew Over the Cuckoo's Nest</strong><br>(Drama)</li>
+                                <li><strong>Se7en</strong><br>(Crime/Drama)</li>
+                                <li><strong>Dune: Part Two</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Interstellar</strong><br>(Sci-Fi/Adventure)</li>
+                                <li><strong>It's a Wonderful Life</strong><br>(Drama/Romance)</li>
+                                <li><strong>Shichinin no samurai</strong><br>(Action/Drama)</li>
+                                <li><strong>The Silence of the Lambs</strong><br>(Crime/Drama)</li>
+                                <li><strong>Saving Private Ryan</strong><br>(Drama/War)</li>
+                                <li><strong>City of God</strong><br>(Crime/Drama)</li>
+                                <li><strong>Life is Beautiful</strong><br>(Comedy/Romance)</li>
+                                <li><strong>The Green Mile</strong><br>(Crime/Drama)</li>
+                                <li><strong>Terminator 2: Judgment Day</strong><br>(Sci-Fi/Action)</li>
+                                <li><strong>Star Wars</strong><br>(Fantasy/Action)</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-panel">
+                    <section id="contact">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>TV Anvies © Tv-Anvies 2024</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="icons">
+                                    <a href="mainpage.html">
+                                        <i class="fa-solid fa-house fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com">
+                                        <i class="fa-brands fa-youtube fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com">
+                                        <i class="fa-brands fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com">
+                                        <i class="fa-brands fa-instagram fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com">
+                                        <i class="fa-brands fa-tiktok fa-3x"></i>
+                                    </a>
+                                    <a href="https://www.gmail.com">
+                                        <i class="fa-solid fa-envelope fa-3x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="Voli-modal">
+            <div class="info-modal">
+                <div class="panel">
+                <div class="row">
+                    <div class="col-sm-1">
+                    <h4>Wall-E</h4>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>IMDb score : 8.4</h4>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4 id="Voli-close">X</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ1CATNbXg0?si=HTrFqHhnpY4OeJT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-5">
+                        <h4>PLOT</h4>
+                        <p>a solitary robot named WALL-E on a future, uninhabitable, deserted Earth in 2805, left to clean up garbage. He is visited by a robot called EVE sent from the starship Axiom, with whom he falls in love and pursues across the galaxy.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul>
+                            <li>Genres: Adventure , Animation </li>
+                            <li>Movie Time : 1h 38m </li>
+                            <li>Release Date : 27/06/2008 </li>
+                            <li>IMDb Ranked : #59</li>
+                            <li>IMDb Popularity : #984</li>
+                            <li>Age Limit : 5+</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="Casablanca-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>Casablanca</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>  IMDb score : 8.5</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Casablanca-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MF7JH_54d8c?si=gwtWt1sxkvem_lYd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Filmed and set during World War II, it focuses on an American expatriate (Bogart) who must choose between his love for a woman (Bergman) and helping her husband (Henreid), a Czechoslovak resistance leader, escape from the Vichy-controlled city of Casablanca to continue his fight against the Germans.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Drama , Romance </li>
+                                <li>Movie Time : 1h 42m </li>
+                                <li>Release Date : 1946 </li>
+                                <li>IMDb Ranked : #47</li>
+                                <li>IMDb Popularity : #801</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="InfinityWar-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <h4>Avengers: Infinity War</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>   IMDb score : 8.4</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="InfinityWar-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8?si=1hKJWP6VkOSPt4aI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Sci-Fi </li>
+                                <li>Movie Time : 2h 29m </li>
+                                <li>Release Date : 27/04/2018 </li>
+                                <li>IMDb Ranked : #64</li>
+                                <li>IMDb Popularity : #397</li>
+                                <li>Age Limit : 15+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="LionKing-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>The Lion King</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.4</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="LionKing-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lFzVJEksoDY?si=5qDjyfQYWhebiByq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Animation , Adventure </li>
+                                <li>Movie Time : 1h 28m </li>
+                                <li>Release Date : 15/06/1994 </li>
+                                <li>IMDb Ranked : #38</li>
+                                <li>IMDb Popularity : #188</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Gladiator-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Gladiator</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.5</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Gladiator-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/P5ieIbInFpg?si=2TaYaSCjpjQ-xUUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In 180 A.D. Rome, the weary and dying emperor, Marcus Aurelius, names his loyal and triumphant general, Maximus Decimus Meridius, his successor and protector of Rome, much to the dismay of his haughty and unbalanced son, Commodus. But, instead, death and entrapment await, as the embittered and blind with rage rival rewards Rome's hero with an order for his execution, only to wind up as a slave to the former gladiator, Proximo. From the vast deserts of North Africa, a new Maximo will rise as a gladiator, hacking and slashing his way through all the way up to Mother Rome and the unsuspecting dictator, Commodus. But will the popular general ever find peace in a long-awaited retribution?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Drama </li>
+                                <li>Movie Time : 2h 35m </li>
+                                <li>Release Date : 19/05/2000 </li>
+                                <li>IMDb Ranked : #37</li>
+                                <li>IMDb Popularity : #97</li>
+                                <li>Age Limit : 16+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="SpiderVerse-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-4">
+                        <h4>Spider-Man:Across the Spider-Verse</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.6</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="SpiderVerse-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/cqGjhVJWtEg?si=dmzFBjR1r5rUAHbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Miles Morales returns once again to save the multiverse! After being reunited with Gwen Stacy, Miles races across the multiverse to try and defeat a powerful foe known as the Spot. He meets many other spider people. But Miguel O'Hara doesn't approve of Miles' actions to save everyone, following canon events. He ends up on a run from Miguel and hundreds of other spider people. Will Miles save the multiverse?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Animation , Action </li>
+                                <li>Movie Time : 2h 20m </li>
+                                <li>Release Date : 02/06/2023 </li>
+                                <li>IMDb Ranked : #36</li>
+                                <li>IMDb Popularity : #179</li>
+                                <li>Age Limit : 10+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Paraside-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Parasite</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.5</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Paraside-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5xH0HfJHsaY?si=u48UCL_v5ZxmouVu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Jobless, penniless, and, above all, hopeless, the unmotivated patriarch, Ki-taek, and his equally unambitious family--his supportive wife, Chung-sook; his cynical twentysomething daughter, Ki-jung, and his college-age son, Ki-woo--occupy themselves by working for peanuts in their squalid basement-level apartment. Then, by sheer luck, a lucrative business proposition will pave the way for an ingeniously insidious scheme, as Ki-woo summons up the courage to pose as an English tutor for the teenage daughter of the affluent Park family. Now, the stage seems set for an unceasing winner-take-all class war. How does one get rid of a parasite?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Drama , Thriller </li>
+                                <li>Movie Time : 2h 12m </li>
+                                <li>Release Date : 30/05/2019 </li>
+                                <li>IMDb Ranked : #34</li>
+                                <li>IMDb Popularity : #166</li>
+                                <li>Age Limit : 15+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Pianist-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>The Pianist</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.5</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Pianist-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BFwGqLa_oAo?si=Z5tVreWsBA0093DW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>A Jewish pianist named Wladislaw Szpilman was playing the piano on the radio station when an explosion occurred outside. It was the beginning of German Nazi occupation in Poland. When he returned home, his family was arguing over how they could keep the rest of their money so the German's couldn't see it. When they looked out the window, they saw their area was fenced. Since then, their life has become in a difficult situation. The German's deported his family and forcibly took on train way to concentration camp. Szpilman was left behind in the Warsaw Ghetto and struggled alone for survival.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Biography , Drama </li>
+                                <li>Movie Time : 2h 30m </li>
+                                <li>Release Date : 24/05/2002 </li>
+                                <li>IMDb Ranked : #33</li>
+                                <li>IMDb Popularity : #536</li>
+                                <li>Age Limit : 16+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="DarkKnight-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <h4>The Dark Knight Rises</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.4</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="DarkKnight-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GokKUqLcvD8?si=DpwAAFSZVpaHyI8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>From a far side of the world, a lunatic rises from the darkness, determined to annihilate the city of the Dark Knight, who has been hiding for eight years. Joining forces with old and new allies, Bruce Wayne must put his mask on one last time to finish what he had started and become a hero again.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Drama </li>
+                                <li>Movie Time : 2h 44m </li>
+                                <li>Release Date : 27/07/2012 </li>
+                                <li>IMDb Ranked : #71</li>
+                                <li>IMDb Popularity : #259</li>
+                                <li>Age Limit : 15+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Oppenheimer-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>Oppenheimer</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.3</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Oppenheimer-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bK6ldnjE3Y0?si=uKufndx9lkoCDfD7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bomb, thus helping end World War 2. We see his life from university days all the way to post-WW2, where his fame saw him embroiled in political machinations.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Biography , History </li>
+                                <li>Movie Time : 3h </li>
+                                <li>Release Date : 21/07/2023 </li>
+                                <li>IMDb Ranked : #96</li>
+                                <li>IMDb Popularity : #27</li>
+                                <li>Age Limit : 17+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Eternal-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-4">
+                        <h4>Eternal Sunshine of the Spotless Mind</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.3</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Eternal-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/07-QBnEkgXU?si=KdvL26vD0yQzeDtq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>A man awakes disheveled; impulsively, he skips work, heading instead to the shore. On this chilly February day, a woman in orange, hair dyed blue, chats him up: she's Clementine, he's Joel, shy and sad; by day's end, he likes her. The next night she takes him to the frozen Charles River. After, as he drops her off, she asks to sleep at his place, and she runs up to get her toothbrush. Strange things occur: their meeting was not entirely chance, they have a history neither remembers. Our seeing how the lacunae came to be and their discovery of the memory loss take the rest of the film.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Drama , Romance </li>
+                                <li>Movie Time : 1h 48m </li>
+                                <li>Release Date : 19/03/2004 </li>
+                                <li>IMDb Ranked : #94</li>
+                                <li>IMDb Popularity : #300</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="ToyStory-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>Toy Story 3</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.3</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="ToyStory-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JcpWXaA2qeg?si=86l2fi6EgWbUcEH_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Woody, Buzz and the whole gang are back. As their owner Andy prepares to depart for college, his loyal toys find themselves in daycare where untamed tots with their sticky little fingers do not play nice. So, it's all for one and one for all as they join Barbie's counterpart Ken, a thespian hedgehog named Mr. Pricklepants and a pink, strawberry-scented teddy bear called Lots-o'-Huggin' Bear to plan their great escape.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Animation , Adventure </li>
+                                <li>Movie Time : 1h 43m </li>
+                                <li>Release Date : 02/07/2010 </li>
+                                <li>IMDb Ranked : #92</li>
+                                <li>IMDb Popularity : #1783</li>
+                                <li>Age Limit : 3+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Dune-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>Dune:Part Two</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.7</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Dune-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Way9Dexny3w?si=g0tN41M0qB3xSHNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Adventure </li>
+                                <li>Movie Time : 2h 46m </li>
+                                <li>Release Date : 01/03/2024 </li>
+                                <li>IMDb Ranked : #23</li>
+                                <li>IMDb Popularity : #6</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Downfall-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Downfall</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.2</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Downfall-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/htvYfe6wz_8?si=PydC1rM9VK7OrnSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Charting the last 10 days of Hitler's life, from his 56th birthday on April 20th, 1945 to his suicide on April 30th, Downfall uses multiple characters to show the chaos of a country coming apart at the seams, from Hitler's henchman under the streets of Berlin, to the soldiers and civilians fighting and dying as the Soviet Army ravaged the city above.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: History , War </li>
+                                <li>Movie Time : 2h 36m </li>
+                                <li>Release Date : 16/09/2004 </li>
+                                <li>IMDb Ranked : #127</li>
+                                <li>IMDb Popularity : #861</li>
+                                <li>Age Limit : 15+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Barbie-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Barbie</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 6.8</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Barbie-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pBk4NYhWNMM?si=jSsOeri_g9OEEA1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>Satisfied with her accomplishments, Barbie, the impeccable fashion icon and absolute style setter, is basking in her glory, believing she has resolved all issues related to feminism and equality. But life is full of surprises, even in glittery, plastic-fantastic Barbie Land. As a result, her contented life soon takes a detour when irrepressible thoughts and uncertain feelings start to weigh Barbie down. Now, sensing that something strange is happening between her bubblegum-pink home and the mysterious physical world, Barbie has no choice but to take the risk or lose the chance.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Adventure , Comedy </li>
+                                <li>Movie Time : 1h 54m </li>
+                                <li>Release Date : 21/07/2023 </li>
+                                <li>IMDb Ranked : #-</li>
+                                <li>IMDb Popularity : #70</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Joker-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Joker</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.4</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Joker-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/t433PEQGErc?si=Wbemy1ZAtQdElHz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>A socially inept clown for hire - Arthur Fleck aspires to be a stand up comedian among his small job working dressed as a clown holding a sign for advertising. He takes care of his mother, Penny Fleck, and as he learns more about his mental illness, he learns more about his past. Dealing with all the negativity and bullying from society, he heads downwards on a spiral, in turn showing how his alter ego, "Joker," came to be.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Crime , Drama </li>
+                                <li>Movie Time : 2h 2m </li>
+                                <li>Release Date : 04/10/2019 </li>
+                                <li>IMDb Ranked : #81</li>
+                                <li>IMDb Popularity : #132</li>
+                                <li>Age Limit : 17+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Vfor-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>V for Vendetta</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.2</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Vfor-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/V5VGq23aZ-g?si=-AWn6mUF_V4Ja69y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In the distant future, Evey Hammond is an average citizen of the United Kingdom, which is under the rule of the fascist and tyrannical Norsefire Party. She is an employee of the state-run British Television Network, but soon, she becomes the number one enemy of the state together with an enigmatic and larger-than-life freedom fighter known only by the letter "V". V informs Evey that she must hide in his underground lair for at least one year, and while she is reluctant to the idea at first, a bond soon forms between the two individuals. In the meanwhile, the mysterious past of V is gradually revealed to the police inspector tasked with capturing him, Eric Finch, and it is not long until he starts questioning everything his government stands for.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Sci-fi , Drama </li>
+                                <li>Movie Time : 2h 12m </li>
+                                <li>Release Date : 16/03/2006 </li>
+                                <li>IMDb Ranked : #164</li>
+                                <li>IMDb Popularity : #1016</li>
+                                <li>Age Limit : 13+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Monsters-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        <h4>Monsters,Inc</h4>
+                        </div>
+                        <div class="col-sm-2">
+                            <h4>IMDb score : 8.1</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Monsters-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CGbgaHoapFM?si=VUo7hw8NCPimJc7f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In a world behind our closet doors, monsters reign supreme. The utility company Monsters Inc. specializes in fueling their world with the screams of human children. A team of monster scarers led by lovable Sulley and his wisecracking best friend Mike work hard and long hours to ensure the fuel of the screams. But things go crazy when Sulley discovers a mysterious door and a runaway little girl running amok. However, both Sulley and Mike discover that the little girl (Boo) is not actually dangerous, so they must bring her home to the human world. But what the duo doesn't know is that Boo is actually the key to a sinister conspiracy to saving the monster world from a rising crisis</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Animation , Adventure </li>
+                                <li>Movie Time : 1h 32m </li>
+                                <li>Release Date : 02/11/2001 </li>
+                                <li>IMDb Ranked : #164</li>
+                                <li>IMDb Popularity : #837</li>
+                                <li>Age Limit : 6+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Logan-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <h4>Logan</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.1</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Logan-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Div0iP65aZo?si=lROvDjiAxce3rGxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>In a world behind our closet doors, monsters reign supreme. The utility company Monsters Inc. specializes in fueling their world with the screams of human children. A team of monster scarers led by lovable Sulley and his wisecracking best friend Mike work hard and long hours to ensure the fuel of the screams. But things go crazy when Sulley discovers a mysterious door and a runaway little girl running amok. However, both Sulley and Mike discover that the little girl (Boo) is not actually dangerous, so they must bring her home to the human world. But what the duo doesn't know is that Boo is actually the key to a sinister conspiracy to saving the monster world from a rising crisis</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Sci-fi </li>
+                                <li>Movie Time : 2h 17m </li>
+                                <li>Release Date : 03/03/2017 </li>
+                                <li>IMDb Ranked : #215</li>
+                                <li>IMDb Popularity : #235</li>
+                                <li>Age Limit : 15+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="Deadpool-modal">
+            <div class="info-modal">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h4>Deadpool</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>IMDb score : 8.0</h4>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="Deadpool-close">X</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ONHBaC-pfsk?si=vfQ889pEnV97jvT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-5">
+                            <h4>PLOT</h4>
+                            <p>This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>Genres: Action , Comedy </li>
+                                <li>Movie Time : 1h 48m </li>
+                                <li>Release Date : 12/02/2016 </li>
+                                <li>IMDb Ranked : #-</li>
+                                <li>IMDb Popularity : #119</li>
+                                <li>Age Limit : 18+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signup-modal">
+            <form>
+                <table id="signuo-screen">
+                    <tr>
+                        <h4 id="close-modal">X</h4>
+                    </tr>
+                    <tr>
+                        <td><label>Full Name</label></td>
+                        <td><input type="text" placeholder="Enter your Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Nickname</label></td>
+                        <td><input type="text" placeholder="Enter your Nickname"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Which types do you like?</label></td>
+                        <td>
+                            <div class="checkbox">
+                                <input type="checkbox" id="videotype" value="Movies"><p>Movies</p>
+                                <input type="checkbox" id="videotype" value="Series"><p>Series</p>
+                                <input type="checkbox" id="videotype" value="Animes"><p>Animes</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password Again</label></td>
+                        <td><input type="password" placeholder="Enter your password again"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="register">Register</button></td>
+                    </tr>
+            </table>
+            </form>
+        </div>
+        <div class="login-modal">
+            <form>
+                <table id="login-screen">
+                    <tr>
+                        <h4 id="close-login">X</h4>
+                    </tr>
+                    <tr>
+                        <td><label>Nickname</label></td>
+                        <td><input type="text" placeholder="Enter your Nickname"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="login">Login</button></td>
+                    </tr>
+            </table>
+            </form>
+        </div>
+        <script src="signup-script.js"></script>
+        <script src="login-script.js"></script>
+        <script src="Voli-script.js"></script>
+        <script src="Casablanca-script.js"></script>
+        <script src="InfinityWar-script.js"></script>
+        <script src="LionKing-script.js"></script>
+        <script src="Gladiator.js"></script>
+        <script src="SpiderVerse-script.js"></script>
+        <script src="Paraside-script.js"></script>
+        <script src="Pianist-script.js"></script>
+        <script src="DarkKnight-script.js"></script>
+        <script src="Oppenheimer.js"></script>
+        <script src="Eternal-script.js"></script>
+        <script src="ToyStory-script.js"></script>
+        <script src="Dune-script.js"></script>
+        <script src="Downfall-script.js"></script>
+        <script src="Barbie.js"></script>
+        <script src="Joker-script.js"></script>
+        <script src="Vfor-script.js"></script>
+        <script src="Monsters-script.js"></script>
+        <script src="Logan-script.js"></script>
+        <script src="Deadpool-scripts.js"></script>
+        <script src="https://kit.fontawesome.com/2f863d5d6a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
